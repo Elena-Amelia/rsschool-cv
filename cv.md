@@ -40,6 +40,12 @@ English - B1 (B2 in progress)
 
 ## **Code Example**
 
+```
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
+```
+
 ## **Courses**
 
 HTML and CSS courses on WebReference
