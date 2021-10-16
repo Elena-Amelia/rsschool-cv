@@ -1,0 +1,160 @@
+body {
+  position: relative;
+  width: 810px;
+  height: 1150px;
+  margin: auto;
+  padding: 20px;
+  font: 20px "Times New Roman", Times, serif;
+  color: white;
+  background-color: rgba(135, 66, 214, 0.8);
+  box-shadow: 0 0 10px #000;
+  border-radius: 10px;
+}
+
+html {
+  background-color: white;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+  left: 470px;
+  color: #370470;
+}
+
+h3 {
+  position: absolute;
+  top: 70px;
+  left: 440px;
+  font-weight: normal;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffec00;
+}
+
+a:hover {
+  color: #370470;
+  text-decoration: none;
+  background-color: white;
+}
+
+.a1:hover {
+  background-color: #ffec00;
+}
+
+.photo {
+  position: absolute;
+  padding: 0 30px;
+  width: 260px;
+}
+
+.h2-left {
+  color: #370470;
+  text-align: center;
+  background-color: #ffec00;
+}
+
+.h2-right-1 {
+  background: url("icons/me.png") no-repeat 380px;
+}
+.h2-right-2 {
+  background: url("icons/edu.png") no-repeat 380px;
+}
+.h2-right-3 {
+  background: url("icons/career.png") no-repeat 380px;
+}
+.h2-right-4 {
+  background: url("icons/cour.png") no-repeat 380px;
+}
+.h2-right-5 {
+  background: url("icons/code.png") no-repeat 380px;
+}
+
+.h2-right-1,
+.h2-right-2,
+.h2-right-3,
+.h2-right-4,
+.h2-right-5 {
+  height: 40px;
+  text-align: center;
+  color: #ffec00;
+  background-color: #370470;
+}
+
+.left-side,
+.right-side {
+  position: absolute;
+}
+
+.left-side {
+  top: 365px;
+  width: 280px;
+  padding: 20px;
+  background-color: #370470;
+}
+
+.right-side {
+  top: 110px;
+  left: 390px;
+  padding: 20px;
+}
+
+.ul-left-1 {
+  padding-left: 5px;
+  line-height: 50px;
+}
+
+.li1 {
+  list-style: none;
+  background: url("icons/address.png") no-repeat;
+  padding-left: 50px;
+}
+
+.li2 {
+  list-style: none;
+  background: url("icons/phone.png") no-repeat;
+  padding-left: 50px;
+}
+
+.li3 {
+  list-style: none;
+  background: url("icons/mail.png") no-repeat;
+  padding-left: 50px;
+}
+
+p,
+ul {
+  line-height: 30px;
+}
+
+.github,
+.year,
+.rs-school {
+  position: absolute;
+  bottom: 0;
+  padding: 20px 50px;
+  font-weight: bold;
+  color: #370470;
+  background-color: #ffec00;
+}
+
+.github {
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+}
+
+.year {
+  left: 330px;
+}
+
+.rs-school {
+  left: 550px;
+}

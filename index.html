@@ -1,88 +1,107 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset ='utf=8'>
-<title>CV</title>
-</head>
+  <head>
+    <meta charset ='utf=8'>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body>
-    <style>
-    .feature {
+  <body>
 
-        background-color: lightblue;
-        color: #0000ff;
-        padding: 20px;
-        margin: 10px;
-        border: solid 1px royalblue;
-        font:20px 'Times New Roman', Times, serif
-    }
-</style>
-    <h1>Elena Ivanova</h1>
-    <section class="feature">
-        <h2>Contact information</h2>
-        <ul>
-            <li>Address: Samara, Russian Federation</li>
-            <li>Mobile phone: +7-927-654-25-95</li>
-            <li>E-mail: amelia013@ya.ru</li>
-            <li>GitHub: <a href="https://github.com/Elena-Amelia">Elena-Amelia</a> </li>
+    <header>
+
+      <h1>Elena Ivanova</h1>
+      <h3>Front-End Developer (Beginner)</h3>
+
+    </header>
+
+    <main>
+
+      <img class="photo" src="imagines/photo.jpg" alt="photo">
+
+      <section class="left-side">
+
+        <h2 class="h2-left">Contact information</h2>
+
+        <ul class="ul-left-1">
+          <li class="li1">Samara, Russian Federation</li>
+          <li class="li2" ><a href="tel:+79276542595">+7-927-654-25-95</a></li>
+          <li class="li3"> <a href="mailto:amelia013@ya.ru">amelia013@ya.ru</a></li>
         </ul>
-    </section>
-    <section>
-        <h2>About me</h2>
-        <p>
-            I'm a responsible and highly-organized person.
-            I'm a quick learner too and like to learn new things. 
-            I want to change my job and become a proficient Front-End Developer.
+
+ 
+        <h2 class="h2-left">Skills and knowledge</h2>
+
+        <ul>
+          <li>HTML, CSS</li>
+          <li>JavaScript (Basic)</li>
+          <li>Git, GitHub</li>
+          <li>VS Code</li>
+        </ul>
+  
+
+        <h2 class="h2-left">Language</h2>
+
+        <ul>
+          <li>Russian - native</li>
+          <li>English - B1 (B2 in progress)</li>
+        </ul>
+       
+      </section>
+
+  
+      <section class="right-side" >
+
+        <h2 class="h2-right-1">About me</h2>
+
+        <p>I'm a responsible and highly-organized person.<br>
+        I'm a quick learner too and like to learn new things.<br>
+        I'd like to change my job and become a proficient Front-End Developer.<br>
+        </p>    
+   
+  
+        <h2 class="h2-right-2">Education</h2>
+
+        <p>2008-2014 Samara Aerospace University <br>
+        (now: Samara State University) <br>
+        Specialist degree, Faculty of Aircraft Engines, <br>
+        Specialization in engineering. <br>
         </p>
-    </section>
-    <section>
-        <h2>Education</h2>
-        <p>2008-2014 Samara Aerospace University (now: Samara State University) Specialist degree, Faculty of Aircraft Engines, Specialization in engineering.
-        </p>
-    </section>
-    <section>
-        <h2>Career</h2>
-        <p>2013-now Design engineer</p>
-    </section>
-    <section>
-        <h2>Skills and knowledge</h2>
-        <ul>
-            <li>HTML, CSS</li>
-            <li>Java Script (Basic)</li>
-            <li>Git, GitHub</li>
-            <li>VS Code</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Language</h2>
-        <ul>
-            <li>Russian - native</li>
-            <li>English - B1 (B2 in progress)</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Code Example</h2>
-        <pre> <code>
-            function repeatStr (n, s) {
-                return s.repeat(n);
-              }
-        </code> </pre>
-    </section>
+  
 
-    <section>
-        <h2>Courses</h2>
+        <h2 class="h2-right-3">Career</h2>
+
+        <p>2013 - now Design engineer <br> </p>
+  
+  
+        <h2 class="h2-right-4">Courses</h2>
+
         <ul>
-            <li>HTML and CSS courses on WebReference</li>
-            <li>Java Script on <a href="https://learn.javascript.ru"></a></li>
-            <li>RS School Course JavaScript/Front-End (in progress)</li>
+          <li>HTML and CSS courses on <a href="https://ru.code-basics.com/">Code Basics</a> and <a href="https://webref.ru/course">WebReference </a></li>
+          <li>JavaScript Manual on <a href="https://learn.javascript.ru">learn.javascript.ru</a></li>
+          <li>RS School Course JavaScript/Front-End (in progress)</li>
         </ul>
-    </section>
+
+
+        <h2 class="h2-right-5">Code Example</h2>
+        <code> function repeatStr (n, s) {
+              return s.repeat(n);
+            }
+        </code>
+
+
+      </section>
+
+    </main>
+
     <footer>
-        <p> <a href="https://github.com/Elena-Amelia">Visit my GitHub</a></p>
-        <p> <time datetime="2021">2021</time> </p>
-        <p> <a href="https://rs.school/js/">logo </a></p>
+
+      <div class="github"><a class="a1"href="https://github.com/Elena-Amelia"><img src="icons/github.png" alt="My GitHub"></a></div>
+      <div class="year"><p><time datetime="2021">2021</time></p></div>
+      <div class="rs-school"><a class="a1" href="https://rs.school/js/"><img src="imagines/rs-school.png" alt="" height="70px"></a></div>
+
     </footer>
 
-</body>
 
+  </body>
 </html>
