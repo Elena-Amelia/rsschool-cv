@@ -1,109 +1,65 @@
-body {
-  position: relative;
-  width: 810px;
-  height: 1150px;
-  margin: auto;
-  padding: 20px;
-  font: 20px "Times New Roman", Times, serif;
-  color: white;
-  background-color: rgba(135, 66, 214, 0.8);
-  box-shadow: 0 0 10px #000;
-  border-radius: 10px;
-}
-
 html {
   background-color: white;
 }
 
-h1 {
-  position: absolute;
-  top: 10px;
-  left: 470px;
-  color: #370470;
+* {
+  box-sizing: border-box;
 }
 
-h3 {
-  position: absolute;
-  top: 70px;
-  left: 440px;
-  font-weight: normal;
+.page {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font: 20px "Times New Roman", Times, serif;
   color: white;
+  background-color: rgba(55, 4, 112, 0.7);
+  box-shadow: 0 0 10px #000;
+  border-radius: 10px;
 }
 
-a {
-  color: white;
-  text-decoration: none;
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
 }
 
-a:visited {
-  color: #ffec00;
-}
-
-a:hover {
-  color: #370470;
-  text-decoration: none;
-  background-color: white;
-}
-
-.a1:hover {
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
   background-color: #ffec00;
 }
 
+.year {
+  align-self: center;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .photo {
-  position: absolute;
-  padding: 0 30px;
-  width: 260px;
+  width: 330px;
+}
+
+.info {
+  background-color: #370470;
+  width: 330px;
+  padding: 10px 25px;
 }
 
 .h2-left {
   color: #370470;
   text-align: center;
   background-color: #ffec00;
-}
-
-.h2-right-1 {
-  background: url("icons/me.png") no-repeat 380px;
-}
-.h2-right-2 {
-  background: url("icons/edu.png") no-repeat 380px;
-}
-.h2-right-3 {
-  background: url("icons/career.png") no-repeat 380px;
-}
-.h2-right-4 {
-  background: url("icons/cour.png") no-repeat 380px;
-}
-.h2-right-5 {
-  background: url("icons/code.png") no-repeat 380px;
-}
-
-.h2-right-1,
-.h2-right-2,
-.h2-right-3,
-.h2-right-4,
-.h2-right-5 {
-  height: 40px;
-  text-align: center;
-  color: #ffec00;
-  background-color: #370470;
-}
-
-.left-side,
-.right-side {
-  position: absolute;
-}
-
-.left-side {
-  top: 365px;
-  width: 280px;
-  padding: 20px;
-  background-color: #370470;
-}
-
-.right-side {
-  top: 110px;
-  left: 390px;
-  padding: 20px;
 }
 
 .ul-left-1 {
@@ -129,32 +85,76 @@ a:hover {
   padding-left: 50px;
 }
 
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 415px;
+}
+
+h1 {
+  align-self: center;
+  color: #ffec00;
+  line-height: 0;
+}
+
+h3 {
+  align-self: center;
+  font-weight: normal;
+  color: white;
+  line-height: 5px;
+}
+
+.h2-right-1 {
+  background: url("icons/me.png") no-repeat 375px;
+}
+.h2-right-2 {
+  background: url("icons/edu.png") no-repeat 375px;
+}
+.h2-right-3 {
+  background: url("icons/career.png") no-repeat 375px;
+}
+.h2-right-4 {
+  background: url("icons/cour.png") no-repeat 375px;
+}
+.h2-right-5 {
+  background: url("icons/code.png") no-repeat 375px;
+}
+
+.h2-right-1,
+.h2-right-2,
+.h2-right-3,
+.h2-right-4,
+.h2-right-5 {
+  height: 40px;
+  text-align: center;
+  color: #ffec00;
+  background-color: #370470;
+}
+
 p,
 ul {
   line-height: 30px;
 }
 
-.github,
-.year,
-.rs-school {
-  position: absolute;
-  bottom: 0;
-  padding: 20px 50px;
-  font-weight: bold;
+p {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffec00;
+}
+
+a:hover {
   color: #370470;
+  text-decoration: none;
+  background-color: white;
+}
+
+.a1:hover {
   background-color: #ffec00;
-}
-
-.github {
-  left: 0;
-  right: 0;
-  border-radius: 10px;
-}
-
-.year {
-  left: 330px;
-}
-
-.rs-school {
-  left: 550px;
 }

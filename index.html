@@ -3,30 +3,27 @@
   <head>
     <meta charset ="utf-8">
     <title>CV</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
 
-    <header>
-
-      <h1>Elena Ivanova</h1>
-      <h3>Front-End Developer (Beginner)</h3>
-
-    </header>
+    <div class="page">
 
     <main>
 
-      <img class="photo" src="imagines/photo.jpg" alt="photo">
-
       <section class="left-side">
+
+        <img class="photo" src="imagines/photo.jpg" alt="photo">
+
+        <div class="info">
 
         <h2 class="h2-left">Contact information</h2>
 
         <ul class="ul-left-1">
           <li class="li1">Samara, Russian Federation</li>
-          <li class="li2" ><a href="tel:+79276542595">+7-927-654-25-95</a></li>
-          <li class="li3"> <a href="mailto:amelia013@ya.ru">amelia013@ya.ru</a></li>
+          <li class="li2"><a href="tel:+79276542595">+7-927-654-25-95</a></li>
+          <li class="li3"><a href="mailto:amelia013@ya.ru">amelia013@ya.ru</a></li>
         </ul>
 
  
@@ -46,11 +43,16 @@
           <li>Russian - native</li>
           <li>English - B1 (B2 in progress)</li>
         </ul>
-       
+
+       </div>
+
       </section>
 
   
-      <section class="right-side" >
+      <section class="right-side">
+
+        <h1>Elena Ivanova</h1>
+        <h3>Front-End Developer (Beginner)</h3>
 
         <h2 class="h2-right-1">About me</h2>
 
@@ -84,11 +86,11 @@
 
 
         <h2 class="h2-right-5">Code Example</h2>
-        <code> function repeatStr (n, s) {
-              return s.repeat(n);
+        <code>
+          function repeatStr (n, s) { <br>
+              return s.repeat(n); <br>
             }
         </code>
-
 
       </section>
 
@@ -96,12 +98,14 @@
 
     <footer>
 
-      <div class="github"><a class="a1" href="https://github.com/Elena-Amelia"><img src="icons/github.png" alt="My GitHub"></a></div>
+      <div><a class="a1" href="https://github.com/Elena-Amelia"><img src="icons/github.png" alt="My GitHub"></a></div>
       <div class="year"><p><time datetime="2021">2021</time></p></div>
-      <div class="rs-school"><a class="a1" href="https://rs.school/js/"><img src="imagines/rs-school.png" alt="" height="70"></a></div>
+      <div><a class="a1" href="https://rs.school/js/"><img src="imagines/rs-school.png" alt="" height="70"></a></div>
 
     </footer>
 
+    </div>
 
   </body>
+
 </html>
