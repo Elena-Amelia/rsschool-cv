@@ -50,7 +50,7 @@ function maxTriSum(numbers){
       arr.splice(i, 1);
       i--;
     }
-  }
+   }
   let sum = arr[0] + arr[1] + arr[2];
   return sum;
   }
@@ -58,13 +58,13 @@ function maxTriSum(numbers){
 
 ## **My projects**
 
-Landing page <https://rolling-scopes-school.github.io/elena-amelia-JSFEPRESCHOOL/portfolio/>
-Галерея изображений <https://rolling-scopes-school.github.io/elena-amelia-JSFEPRESCHOOL/image-galery/>
-Игра Змейка <https://rolling-scopes-school.github.io/elena-amelia-JSFEPRESCHOOL/random-game/>
+- Landing page <https://rolling-scopes-school.github.io/elena-amelia-JSFEPRESCHOOL/portfolio/>
+- Галерея изображений <https://rolling-scopes-school.github.io/elena-amelia-JSFEPRESCHOOL/image-galery/>
+- Игра Змейка <https://rolling-scopes-school.github.io/elena-amelia-JSFEPRESCHOOL/random-game/>
 
 ## **Courses**
 
-HTML and CSS courses on WebReference
-Java Script on <https://learn.javascript.ru> (in progress)
-RS School JS/FE Pre-school 2022 (JavaScript)
-RS School Course JavaScript/Front-End (in progress)
+- HTML and CSS courses on WebReference
+- Java Script on <https://learn.javascript.ru> (in progress)
+- RS School JS/FE Pre-school 2022 (JavaScript)
+- RS School Course JavaScript/Front-End (in progress)
