@@ -13,7 +13,7 @@ html {
   flex-direction: column;
   font: 20px "Times New Roman", Times, serif;
   color: white;
-  background-color: rgba(55, 4, 112, 0.7);
+  background-color: rgb(147, 112, 219);
   box-shadow: 0 0 10px #000;
   border-radius: 10px;
 }
